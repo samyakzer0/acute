@@ -12,7 +12,7 @@ function App() {
       <div className="app-container">
         <nav className="nav-bar glass-effect">
           <Link to="/" className="nav-logo">
-    <img src = "/icon.png" alt= "Acute Logo" className= "logo-icon" />
+            <img src="/icon.png" alt="Acute Logo" className="logo-icon" />
           </Link>
           <div className="nav-links">
             <Link to="/" className="nav-button">
@@ -59,12 +59,12 @@ function HomePage() {
             <Link to="send-photo">
               <Camera size={32} />
             </Link>
-              <h3>Send Files</h3>
+            <h3>Send Files</h3>
             <p>Upload and share files securely with specific recipients</p>
           </div>
           <div className="feature-card glass-effect">
             <Link to="retrieve-photo">
-            <Download size={32} />
+              <Download size={32} />
             </Link>
             <h3>Retrieve Files</h3>
             <p>Access shared files using your unique OTP</p>
